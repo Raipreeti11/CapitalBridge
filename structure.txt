@@ -1,206 +1,79 @@
-Folder PATH listing for volume New Volume
-Volume serial number is 3CFB-27E1
-D:.
-¦   .gitattributes
-¦   .gitignore
-¦   HELP.md
-¦   mvnw
-¦   mvnw.cmd
-¦   pom.xml
-¦   structure.txt
-¦   
+Folder PATH listing
+Volume serial number is 0C62-246B
+E:.
 +---.mvn
-¦   +---wrapper
-¦           maven-wrapper.properties
-¦           
-+---.vscode
-¦       launch.json
-¦       settings.json
-¦       
-+---crowdFundingBackend
+ï¿½   +---wrapper
++---Frontend
+ï¿½   +---src
+ï¿½       +---components
+ï¿½       ï¿½   +---auth
+ï¿½       ï¿½   +---chat
+ï¿½       ï¿½   +---content
+ï¿½       ï¿½   +---data
+ï¿½       ï¿½   +---feedback
+ï¿½       ï¿½   +---navigation
+ï¿½       ï¿½   +---projects
+ï¿½       ï¿½   +---ui
+ï¿½       +---hooks
+ï¿½       +---layouts
+ï¿½       +---pages
+ï¿½       +---services
+ï¿½       +---store
+ï¿½       +---utils
 +---src
-¦   +---main
-¦   ¦   +---java
-¦   ¦   ¦   +---com
-¦   ¦   ¦       +---crowdfunding_backend
-¦   ¦   ¦           ¦   CrowdfundingBackendApplication.java
-¦   ¦   ¦           ¦   
-¦   ¦   ¦           +---config
-¦   ¦   ¦           ¦       AppConfig.java
-¦   ¦   ¦           ¦       PasswordConfig.java
-¦   ¦   ¦           ¦       SecurityConfig.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---controller
-¦   ¦   ¦           ¦       AdminAuthController.java
-¦   ¦   ¦           ¦       CreatorController.java
-¦   ¦   ¦           ¦       InvestmentController.java
-¦   ¦   ¦           ¦       ProjectController.java
-¦   ¦   ¦           ¦       UserController.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---dto
-¦   ¦   ¦           ¦   ¦   AuthResponse.java
-¦   ¦   ¦           ¦   ¦   
-¦   ¦   ¦           ¦   +---creator
-¦   ¦   ¦           ¦   ¦       CreatorProfileRequest.java
-¦   ¦   ¦           ¦   ¦       CreatorProfileResponse.java
-¦   ¦   ¦           ¦   ¦       
-¦   ¦   ¦           ¦   +---investment
-¦   ¦   ¦           ¦   ¦       InvestmentRequest.java
-¦   ¦   ¦           ¦   ¦       InvestmentResponse.java
-¦   ¦   ¦           ¦   ¦       
-¦   ¦   ¦           ¦   +---project
-¦   ¦   ¦           ¦           ProjectListResponse.java
-¦   ¦   ¦           ¦           ProjectRequest.java
-¦   ¦   ¦           ¦           ProjectResponse.java
-¦   ¦   ¦           ¦           
-¦   ¦   ¦           +---entity
-¦   ¦   ¦           ¦       CreatorProfile.java
-¦   ¦   ¦           ¦       Investment.java
-¦   ¦   ¦           ¦       Project.java
-¦   ¦   ¦           ¦       Role.java
-¦   ¦   ¦           ¦       User.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---exception
-¦   ¦   ¦           ¦       CustomException.java
-¦   ¦   ¦           ¦       ErrorResponse.java
-¦   ¦   ¦           ¦       GlobalExceptionHandler.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---investment
-¦   ¦   ¦           ¦       InvestmentRequest.java
-¦   ¦   ¦           ¦       InvestmentResponse.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---repository
-¦   ¦   ¦           ¦       CreatorProfileRepository.java
-¦   ¦   ¦           ¦       InvestmentRepository.java
-¦   ¦   ¦           ¦       ProjectRepository.java
-¦   ¦   ¦           ¦       UserRepository.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---security
-¦   ¦   ¦           ¦       JwtFilter.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---service
-¦   ¦   ¦           ¦       AdminAuthService.java
-¦   ¦   ¦           ¦       CreatorService.java
-¦   ¦   ¦           ¦       InvestmentService.java
-¦   ¦   ¦           ¦       ProjectService.java
-¦   ¦   ¦           ¦       Test.java
-¦   ¦   ¦           ¦       UserService.java
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---util
-¦   ¦   ¦                   JwtUtil.java
-¦   ¦   ¦                   
-¦   ¦   +---resources
-¦   ¦       ¦   application.properties
-¦   ¦       ¦   
-¦   ¦       +---static
-¦   ¦       ¦       index.html
-¦   ¦       ¦       
-¦   ¦       +---templates
-¦   +---test
-¦       +---java
-¦           +---com
-¦               +---crowdfunding_backend
-¦                       CrowdfundingBackendApplicationTests.java
-¦                       
+ï¿½   +---main
+ï¿½   ï¿½   +---java
+ï¿½   ï¿½   ï¿½   +---com
+ï¿½   ï¿½   ï¿½       +---crowdfunding_backend
+ï¿½   ï¿½   ï¿½           +---config
+ï¿½   ï¿½   ï¿½           +---controller
+ï¿½   ï¿½   ï¿½           +---dto
+ï¿½   ï¿½   ï¿½           ï¿½   +---admin
+ï¿½   ï¿½   ï¿½           ï¿½   +---chat
+ï¿½   ï¿½   ï¿½           ï¿½   +---creator
+ï¿½   ï¿½   ï¿½           ï¿½   +---investmentRequest
+ï¿½   ï¿½   ï¿½           ï¿½   +---payment
+ï¿½   ï¿½   ï¿½           ï¿½   +---project
+ï¿½   ï¿½   ï¿½           +---entity
+ï¿½   ï¿½   ï¿½           +---exception
+ï¿½   ï¿½   ï¿½           +---repository
+ï¿½   ï¿½   ï¿½           +---security
+ï¿½   ï¿½   ï¿½           +---service
+ï¿½   ï¿½   ï¿½           +---util
+ï¿½   ï¿½   +---resources
+ï¿½   +---test
+ï¿½       +---java
+ï¿½           +---com
+ï¿½               +---crowdfunding_backend
 +---target
     +---classes
-    ¦   ¦   application.properties
-    ¦   ¦   
-    ¦   +---com
-    ¦   ¦   +---crowdfunding_backend
-    ¦   ¦       ¦   CrowdfundingBackendApplication.class
-    ¦   ¦       ¦   
-    ¦   ¦       +---config
-    ¦   ¦       ¦       AppConfig.class
-    ¦   ¦       ¦       PasswordConfig.class
-    ¦   ¦       ¦       SecurityConfig.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---controller
-    ¦   ¦       ¦       CreatorController.class
-    ¦   ¦       ¦       InvestmentController.class
-    ¦   ¦       ¦       ProjectController.class
-    ¦   ¦       ¦       UserController.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---dto
-    ¦   ¦       ¦   ¦   AuthResponse.class
-    ¦   ¦       ¦   ¦   
-    ¦   ¦       ¦   +---creator
-    ¦   ¦       ¦   ¦       CreatorProfileRequest.class
-    ¦   ¦       ¦   ¦       CreatorProfileResponse.class
-    ¦   ¦       ¦   ¦       
-    ¦   ¦       ¦   +---investment
-    ¦   ¦       ¦   ¦       InvestmentRequest.class
-    ¦   ¦       ¦   ¦       InvestmentResponse$InvestmentResponseBuilder.class
-    ¦   ¦       ¦   ¦       InvestmentResponse.class
-    ¦   ¦       ¦   ¦       
-    ¦   ¦       ¦   +---project
-    ¦   ¦       ¦           ProjectListResponse$ProjectListResponseBuilder.class
-    ¦   ¦       ¦           ProjectListResponse.class
-    ¦   ¦       ¦           ProjectRequest.class
-    ¦   ¦       ¦           ProjectResponse.class
-    ¦   ¦       ¦           
-    ¦   ¦       +---entity
-    ¦   ¦       ¦       CreatorProfile.class
-    ¦   ¦       ¦       Investment$InvestmentBuilder.class
-    ¦   ¦       ¦       Investment.class
-    ¦   ¦       ¦       Project.class
-    ¦   ¦       ¦       Role.class
-    ¦   ¦       ¦       User.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---exception
-    ¦   ¦       ¦       CustomException.class
-    ¦   ¦       ¦       ErrorResponse$ErrorResponseBuilder.class
-    ¦   ¦       ¦       ErrorResponse.class
-    ¦   ¦       ¦       GlobalExceptionHandler.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---investment
-    ¦   ¦       ¦       InvestmentRequest.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---repository
-    ¦   ¦       ¦       CreatorProfileRepository.class
-    ¦   ¦       ¦       InvestmentRepository.class
-    ¦   ¦       ¦       ProjectRepository.class
-    ¦   ¦       ¦       UserRepository.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---security
-    ¦   ¦       ¦       JwtFilter.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---service
-    ¦   ¦       ¦       CreatorService.class
-    ¦   ¦       ¦       InvestmentService.class
-    ¦   ¦       ¦       ProjectService.class
-    ¦   ¦       ¦       Test.class
-    ¦   ¦       ¦       UserService.class
-    ¦   ¦       ¦       
-    ¦   ¦       +---util
-    ¦   ¦               JwtUtil.class
-    ¦   ¦               
-    ¦   +---static
-    ¦           index.html
-    ¦           
+    ï¿½   +---com
+    ï¿½       +---crowdfunding_backend
+    ï¿½           +---config
+    ï¿½           +---controller
+    ï¿½           +---dto
+    ï¿½           ï¿½   +---admin
+    ï¿½           ï¿½   +---chat
+    ï¿½           ï¿½   +---creator
+    ï¿½           ï¿½   +---investmentRequest
+    ï¿½           ï¿½   +---payment
+    ï¿½           ï¿½   +---project
+    ï¿½           +---entity
+    ï¿½           +---exception
+    ï¿½           +---repository
+    ï¿½           +---security
+    ï¿½           +---service
+    ï¿½           +---util
     +---generated-sources
-    ¦   +---annotations
+    ï¿½   +---annotations
     +---generated-test-sources
-    ¦   +---test-annotations
+    ï¿½   +---test-annotations
     +---maven-status
-    ¦   +---maven-compiler-plugin
-    ¦       +---compile
-    ¦       ¦   +---default-compile
-    ¦       ¦           createdFiles.lst
-    ¦       ¦           inputFiles.lst
-    ¦       ¦           
-    ¦       +---testCompile
-    ¦           +---default-testCompile
-    ¦                   createdFiles.lst
-    ¦                   inputFiles.lst
-    ¦                   
-    +---surefire-reports
-    ¦       2026-04-05T12-42-00_310.dumpstream
-    ¦       com.crowdfunding_backend.CrowdfundingBackendApplicationTests.txt
-    ¦       TEST-com.crowdfunding_backend.CrowdfundingBackendApplicationTests.xml
-    ¦       
+    ï¿½   +---maven-compiler-plugin
+    ï¿½       +---compile
+    ï¿½       ï¿½   +---default-compile
+    ï¿½       +---testCompile
+    ï¿½           +---default-testCompile
     +---test-classes
         +---com
             +---crowdfunding_backend
-                    CrowdfundingBackendApplicationTests.class
-                    
